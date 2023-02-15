@@ -1,0 +1,67 @@
+1. A data type boolean can have two values: true and false.
+
+2. AND,OR,NOT.
+
+3. AND :
+   TRUE   TRUE   TRUE
+   TRUE   FALSE  FALSE
+   FALSE  TRUE   FALSE
+   FALSE  FALSE  FALSE
+   
+   OR :
+   TRUE   TRUE   TRUE
+   TRUE   FALSE  TRUE
+   FALSE  TRUE   TRUE
+   FALSE  FALSE  FALSE
+   
+   NOT :
+   TRUE   FALSE
+   FALSE  TRUE
+
+4. True,False,True,False,False,True
+
+5. We have six of these, less than, greater than, less than or equal to, greater than or equal to, equal to, and not equal to.
+
+6.  equal to operator is used to compare the values of both variables while the assignment operator is used to assign the values to the variables.
+
+7. block 1 
+  spam = 0
+  if spam == 10:
+  print('eggs')
+ block 2
+  if spam > 5:
+  print('bacon')
+ block 3
+  else:
+  print('ham')
+  print('spam')
+  print('spam')
+
+8.
+spam = int(input("Input a no."))
+if spam == 1:
+    print("Hello")
+elif spam == 2:
+    print("Howdy")
+else:
+    print("Greetings!")
+
+9.  If program is stuck in endless loop we will press ctrl+c.
+
+10. Break statement will end up in the innermost loop if it is used within a nested loop. While using the continue statement the loops do not terminate but continuously go on with the next iteration.
+
+11. The range(10) call ranges from 0 up to (but not including) 10, range(0, 10) tells the loop to start at 0, and range(0, 10, 1) tells the loop to increase the variable by 1 on each iteration.
+
+12.
+#Use of For Loop
+print("For Loop")
+for i in range(1,11):
+    print(i)
+#Use of While Loop
+print("While Loop")
+a =1
+while a <= 10:
+    print(a)
+    a+=1
+
+13.This function can be called with spam.bacon().
